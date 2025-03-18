@@ -1,29 +1,20 @@
 programa {
   funcao inicio() {
    
-   cadeia Resto_da_Divisao
-   real Resto_da_Divisao
-   real X
-   real Y
+    
+   real Resto_Divisao 
+   inteiro x,y
   
-    escreva("Digite o valor de X: ")
-    leia(X)
-    se (X<>0) entao 
-  
-   
-    escreva("Digite o valor de Y: ")
-    leia(Y)
+    escreva ("Digite o valor de x: ")
+    leia(x)
+    
+    escreva ("Digite o valor de y: ")
+    leia(y)
 
-   se (Y > 0) entao
+    Resto_Divisao= (x/y)
 
-    Resto_da_Divisao = (X/Y) 
+    escreva ("O resultado da sua conta é: ", Resto_Divisao)
+    
 
-        escreva("O resultado da divisão de ", X, " por ", Y, " é: ", Resto_da_Divisao, "\n")
-
-    senao
-        escreva("Erro: divisão por zero não é permitida!\n")
-
-
-    Resto_da_Divisao = (X/Y)
   }
 }
