@@ -1,0 +1,13 @@
+                                            FOR
+Primeiros testes de comando RANGE: Comando usado para listar uma numeracação de 0 até o número correspondente.
+
+#for range
+
+for contador in range (65):
+  print (contador)
+
+  #for range + break
+for contador in range (1000):
+  print (contador)
+  if contador == 27:
+     break
