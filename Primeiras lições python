@@ -11,3 +11,23 @@ for contador in range (1000):
   print (contador)
   if contador == 27:
      break
+
+
+                                 FOR COM OPERADORES COMPOSTOS
+
+lista2= [2,3,4]
+
+for val in lista2:
+ val *= 5
+ print(val)
+
+Resultado: 10;15;20
+
+ou 
+
+for val in lista2:
+ val += 2
+ print(val)
+
+Resultado: 4;5;6
+
