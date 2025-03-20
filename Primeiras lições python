@@ -31,3 +31,23 @@ for val in lista2:
 
 Resultado: 4;5;6
 
+
+                           WHILE 
+val = 1
+while (val < 6):
+ val *=2
+ print(val)
+
+Resultado= 2;4;8
+
+                        WHILE COM ELSE 
+
+val=10 
+while val<6: 
+  val *=2 
+
+else: 
+  print("Valor é igual a: ", val)
+
+Valor é igual a:  10
+
